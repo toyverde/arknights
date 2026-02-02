@@ -1,0 +1,6 @@
+/ (root)
+ ├─ index.html
+ ├─ css/
+ │   └─ style.css
+ ├─ img/
+ │   └─ personaje.png
