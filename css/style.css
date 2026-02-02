@@ -63,3 +63,26 @@ body {
 .char-button.laevatain {
   background-image: url("../img/Laevatain.png");
 }
+
+.char-button.yvonne {
+  background-image: url("../img/Yvonne.png");
+}
+
+.char-button.last-rite {
+  background-image: url("../img/ember.png");
+}
+
+.char-button.ardelia {
+  background-image: url("../img/Ardelia.png");
+}
+.char-button.xaihi {
+  background-image: url("../img/fescher.png");
+}
+
+.char-button.ember {
+  background-image: url("../img/ember.png");
+}
+
+.char-button.enministrator {
+  background-image: url("../img/iris.png");
+}
