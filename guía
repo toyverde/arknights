@@ -1,41 +1,29 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Guía – Arknights Endfield</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: sans-serif;
+  margin: 0;
+}
 
-<header>
-  <h1>Guía de Personaje</h1>
-  <p>Build balanceada – Arknights Endfield</p>
-</header>
+header {
+  padding: 2rem;
+  text-align: center;
+}
 
-<main class="grid">
-  <section class="card">
-    <h2>Rol</h2>
-    <p>Soporte / DPS híbrido</p>
-  </section>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
 
-  <section class="card">
-    <h2>Stats Prioritarios</h2>
-    <ul>
-      <li>ATK</li>
-      <li>Crit</li>
-      <li>Velocidad</li>
-    </ul>
-  </section>
+.card {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 1rem;
+}
 
-  <section class="card">
-    <h2>Notas</h2>
-    <p>Funciona mejor en equipos de control de área.</p>
-  </section>
-
-  <section class="card image">
-    <img src="img/personaje.png" alt="Personaje">
-  </section>
-</main>
-
-</body>
-</html>
+.card.image img {
+  width: 100%;
+  border-radius: 8px;
+}
