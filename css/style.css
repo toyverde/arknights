@@ -1,59 +1,42 @@
+/* === RESET BÁSICO === */
 body {
-  background: #0f172a;
-  color: #e5e7eb;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   margin: 0;
+  background: #000;
+  font-family: sans-serif;
 }
 
-header {
-  padding: 2rem;
-  text-align: center;
+/* === TÍTULO === */
+.title-bar {
+  background: #fff;
+  padding: 24px;
 }
 
-header h1 {
+.title-bar h1 {
   margin: 0;
+  color: #000;
+  font-size: 24px;
+  letter-spacing: 0.5px;
 }
 
-.grid {
+/* === GRID DE PERSONAJES === */
+.character-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 16px;
+  padding: 24px;
 }
 
-.card {
-  background: #1e293b;
-  border-radius: 12px;
-  padding: 1rem 1.25rem;
-}
-
-.card h2 {
-  margin-top: 0;
-  font-size: 1.1rem;
-}
-
-.card ul {
-  padding-left: 1.2rem;
-}
-
-.card.image img {
-  width: 100%;
+/* === BOTÓN PERSONAJE === */
+.char-button {
+  aspect-ratio: 1 / 1;
+  background: #111;
+  border: 1px solid #333;
   border-radius: 8px;
+  display: block;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
-/* === TARJETAS CLICABLES (HOME) === */
-
-.link-card {
-  text-decoration: none;
-  color: inherit;
-  transition: transform 0.2s ease;
-}
-
-.link-card:hover {
-  transform: translateY(-4px);
-}
-
-.link-card img {
-  width: 100%;
-  border-radius: 8px;
+.char-button:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
 }
