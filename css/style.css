@@ -42,8 +42,8 @@ body {
 }
 
 .char-button {
-  width: 220px;
-  height: 320px;
+  width: 320px;
+  height: 220px;
 
   background-size: cover;
   background-position: center;
