@@ -28,26 +28,15 @@ body {
 
 /* === BOTÓN PERSONAJE === */
 .char-button {
-  aspect-ratio: 1 / 1;
-  background: #111;
-  border: 1px solid #333;
-  border-radius: 8px;
-  display: block;
-  transition: background 0.2s ease, transform 0.2s ease;
-}
-
-.char-button:hover {
-  background: #1a1a1a;
-  transform: translateY(-2px);
-}
-
-.char-button {
   width: 320px;
   height: 220px;
 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  padding: 6px;
+  background: #111;
 
   border-radius: 12px;
   display: block;
