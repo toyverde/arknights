@@ -38,15 +38,53 @@ body {
   padding: 6px;
   background: #111;
 
+  position: relative;
+  overflow: hidden;
+
   border-radius: 12px;
   display: block;
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.char-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.2s ease;
+}
+
+.char-button:hover::before {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .char-button:hover {
-  transform: translateY(-4px);
+  transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+.char-button::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #7fdcff,
+    transparent
+  );
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.char-button:hover::after {
+  opacity: 1;
 }
 
 .char-button.laevatain {
