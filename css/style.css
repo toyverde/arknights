@@ -21,9 +21,9 @@ body {
 /* === GRID DE PERSONAJES === */
 .character-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 32px;
-  padding: 48px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  padding: 20px;
 }
 
 /* === BOTÓN PERSONAJE === */
