@@ -131,3 +131,30 @@ body {
 .char-button.enministrator {
   background-image: url("../img/iris.png");
 }
+
+.guide-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.guide-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.guide-header {
+  padding: 16px;
+}
+
+.back-link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
