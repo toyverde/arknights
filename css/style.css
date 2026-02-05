@@ -158,3 +158,11 @@ body {
 .back-link:hover {
   opacity: 1;
 }
+
+/* === para el mensaje de página en proceso === */
+.update-note {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #ccc;
+  opacity: 0.8;
+}
