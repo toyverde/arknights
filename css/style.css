@@ -46,8 +46,8 @@ body {
 
 /* === BOTÓN PERSONAJE === */
 .char-button {
-  width: 320px;
-  height: 220px;
+  width: 300px;
+  height: 200px;
 
   background-size: cover;
   background-position: center;
