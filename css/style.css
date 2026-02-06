@@ -132,6 +132,10 @@ body {
   background-image: url("../img/iris.png");
 }
 
+.char-button.gilberta {
+  background-image: url("../img/Gilberta.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
