@@ -113,6 +113,10 @@ body {
   background-image: url("../img/Yvonne.png");
 }
 
+.char-button.pogranichnik {
+  background-image: url("../img/Pogranichnik.png");
+}
+
 .char-button.last-rite {
   background-image: url("../img/Last-Rite.png");
 }
