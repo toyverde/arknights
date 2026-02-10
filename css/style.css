@@ -140,6 +140,10 @@ body {
   background-image: url("../img/Gilberta.png");
 }
 
+.char-button.avywenna {
+  background-image: url("../img/Avywenna.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
