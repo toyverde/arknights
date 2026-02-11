@@ -144,6 +144,10 @@ body {
   background-image: url("../img/Avywenna.png");
 }
 
+.char-button.xaihi {
+  background-image: url("../img/Xaihi.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
