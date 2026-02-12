@@ -152,6 +152,10 @@ body {
   background-image: url("../img/Wulfgard.png");
 }
 
+.char-button.fluorite {
+  background-image: url("../img/Fluorite.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
