@@ -148,6 +148,10 @@ body {
   background-image: url("../img/Xaihi.png");
 }
 
+.char-button.wulfgard {
+  background-image: url("../img/Wulfgard.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
