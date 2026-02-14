@@ -156,6 +156,10 @@ body {
   background-image: url("../img/Fluorite.png");
 }
 
+.char-button.perlica {
+  background-image: url("../img/Perlica.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
