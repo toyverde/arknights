@@ -160,6 +160,10 @@ body {
   background-image: url("../img/Perlica.png");
 }
 
+.char-button.akekuri {
+  background-image: url("../img/Akekuri.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
