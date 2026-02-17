@@ -164,6 +164,10 @@ body {
   background-image: url("../img/Akekuri.png");
 }
 
+.char-button.chen {
+  background-image: url("../img/Chen.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
