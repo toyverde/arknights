@@ -168,6 +168,10 @@ body {
   background-image: url("../img/Chen.png");
 }
 
+.char-button.antal {
+  background-image: url("../img/Antal.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
