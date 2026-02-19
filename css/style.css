@@ -172,6 +172,10 @@ body {
   background-image: url("../img/Antal.png");
 }
 
+.char-button.da-pan {
+  background-image: url("../img/Da-Pan.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
