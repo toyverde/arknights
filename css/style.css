@@ -176,6 +176,10 @@ body {
   background-image: url("../img/Da-Pan.png");
 }
 
+.char-button.snowshine {
+  background-image: url("../img/Snowshine.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
