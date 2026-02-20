@@ -180,6 +180,10 @@ body {
   background-image: url("../img/Snowshine.png");
 }
 
+.char-button.estella {
+  background-image: url("../img/Estella.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
