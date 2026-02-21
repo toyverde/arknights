@@ -184,6 +184,10 @@ body {
   background-image: url("../img/Estella.png");
 }
 
+.char-button.lifeng {
+  background-image: url("../img/Lifeng.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
