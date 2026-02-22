@@ -188,6 +188,10 @@ body {
   background-image: url("../img/Lifeng.png");
 }
 
+.char-button.arclight {
+  background-image: url("../img/Arclight.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
