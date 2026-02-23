@@ -192,6 +192,10 @@ body {
   background-image: url("../img/Arclight.png");
 }
 
+.char-button.alesh {
+  background-image: url("../img/Alesh.png");
+}
+
 .guide-container {
   max-width: 900px;
   margin: 0 auto;
